@@ -1,0 +1,153 @@
+body {
+    font-size: 15pt;
+    background: url(bg.jpg);
+    background-color: #AD986D;
+    background-size:200%,100% ;
+    position: absolute;
+}
+.ban{
+  position: fixed;
+  top: -10px;
+  background-color: #292929;
+  height: 49px;
+  width: 100%;
+}
+.ban .banar{
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: -6px;
+}
+.ban .bnn{
+  font-family: font;
+  position: relative;
+  left: 100px;
+  top: 2px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+from {
+  align-items: center;  
+}
+div {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px;
+  
+}
+.img .bi{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border-top: 15px;
+  border-color: #FF3EC8A1;
+  box-shadow: 12px;
+  border-radius:0 0 90px 90px;
+  position: relative;
+  top: 30px;
+}
+.img .bi:hover{
+  height: 50%;
+}
+input {
+
+	display: block;
+
+	width: 200px;
+	height: 50px;
+	border-radius: 23px;
+	outline: none;
+	border: none;
+	background: #292929;
+	background-size: 200%;
+	font-size: 2rem;
+	color: #FFFFFF;
+	font-family: atm;
+	text-transform: uppercase;
+	margin-left: 20%;
+	margin-top: 3rem;
+	cursor: pointer;
+	transition: .2s; 
+	align-self: center;
+}
+input:hover{
+	background-color:#3EA9FF;
+	width: 100px;
+	height: 1500%;
+	justify-self: center;
+}
+.des{
+  background: #292929B0;
+  border-radius:13px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.des ul{
+  color: #E4E100;
+  size: 50px;
+  align-self: center;
+  position: relative;
+  left: 20px;
+  background: #292929B0;
+  border-radius:25px;
+  font-style: bold;
+  font-family: hec;
+  width: 70%;
+  vertical-align: center;
+}
+.des p{
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 7px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: boti;
+  color: #E4E100;
+}
+.pd{
+  background: #048FFF78;
+  text-align: center;
+  height: 7rem;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+@font-face {
+  font-family: font;
+  src: url(Font.ttf);
+}
+.pd .si{
+  width: 340px;
+  height: 100px;
+  position: relative;
+  bottom: 35px;
+  border-top: 0px;
+  
+  
+  
+}
+.pd .s{
+  padding-bottom: -100px;
+  border: 0;
+  color: #04FF9B;
+  font-weight: bold;
+  position: relative;
+  font-size:20px;
+  font-family: boti;
+}
+@font-face {
+  font-family: atm;
+  src: url(Atm.ttf);
+}
+@font-face {
+  font-family: hec;
+  src: url(Hac.ttf)
+}
+@font-face {
+  font-family: boti;
+  src: url(Bat.otf);
+}

@@ -1,0 +1,17 @@
+body {
+    font-size: 15pt;
+}
+.erori {
+  height: 30%;
+  width: 30%;
+  position: relative;
+  top: -10px;
+  left: 100px;
+}
+.d {
+  width: 100%;
+}
+p {
+  position: relative;
+  bottom: 0px;
+}
